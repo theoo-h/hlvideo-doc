@@ -44,7 +44,7 @@ make
 
 ## Building the Library
 
-- Define HL_VIDEOPATH env var to point your `hlvideo` directory, normally %HAXEPATH%\libs\hlvideo\git
+- Define HL_VIDEOPATH env var to point your `hlvideo` directory, normally %HAXEPATH%\lib\hlvideo\git
 
 - Open `video.sln` with Visual Studio, then compile, once its complete, copy `video.hdll` and `video.lib` (which are going to be in x64/Debug) to your hashlink directory.
 
