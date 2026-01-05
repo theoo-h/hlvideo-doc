@@ -40,9 +40,12 @@ Just call make
 
 ```
 make
+```
 
 ## Building the Library
 
 - Define HL_VIDEOPATH env var to point your `hlvideo` directory, normally %HAXEPATH%\libs\hlvideo\git
 
-- Open `video.sln` with Visual Studio, then compile, once its complete, copy `video.hdll` and `video.lib` (which are going to be in x64/Debug) to your hashlink directory
+- Open `video.sln` with Visual Studio, then compile, once its complete, copy `video.hdll` and `video.lib` (which are going to be in x64/Debug) to your hashlink directory.
+
+- Add `-lib hlvideo` to your heaps project, and now everything should go well.
